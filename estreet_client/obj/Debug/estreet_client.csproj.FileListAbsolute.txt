@@ -1,0 +1,8 @@
+c:\users\tyson\documents\visual studio 2013\Projects\estreet_client\estreet_client\obj\Debug\estreet_client.csprojResolveAssemblyReference.cache
+c:\users\tyson\documents\visual studio 2013\Projects\estreet_client\estreet_client\bin\estreet_client.dll.config
+c:\users\tyson\documents\visual studio 2013\Projects\estreet_client\estreet_client\bin\estreet_client.dll
+c:\users\tyson\documents\visual studio 2013\Projects\estreet_client\estreet_client\bin\estreet_client.pdb
+c:\users\tyson\documents\visual studio 2013\Projects\estreet_client\estreet_client\bin\RestSharp.dll
+c:\users\tyson\documents\visual studio 2013\Projects\estreet_client\estreet_client\bin\RestSharp.xml
+c:\users\tyson\documents\visual studio 2013\Projects\estreet_client\estreet_client\obj\Debug\estreet_client.dll
+c:\users\tyson\documents\visual studio 2013\Projects\estreet_client\estreet_client\obj\Debug\estreet_client.pdb
