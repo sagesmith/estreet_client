@@ -5,19 +5,22 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <style type="text/css">
+        .results { font-size: 1.3em; }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
     <div>
     
         URI<asp:RadioButtonList ID="rblURIs" runat="server">
-            <asp:ListItem Selected="True">https://electionstreet.com</asp:ListItem>
-            <asp:ListItem>http://estreet.boe.nyc.ny.us</asp:ListItem>
-            <asp:ListItem>http://future.boe.nyc.ny.us</asp:ListItem>
-            <asp:ListItem>http://city.boe.nyc.ny.us</asp:ListItem>
-            <asp:ListItem>http://state.boe.nyc.ny.us</asp:ListItem>
-            <asp:ListItem>http://congress.boe.nyc.ny.us</asp:ListItem>
-            <asp:ListItem>http://lastdecade.boe.nyc.ny.us</asp:ListItem>
+            <asp:ListItem Selected="True" Value="https://electionstreet.com">https://electionstreet.com (cloud)</asp:ListItem>
+            <asp:ListItem Value="http://estreet.boe.nyc.ny.us">http://estreet.boe.nyc.ny.us (behind BoE firewall)</asp:ListItem>
+            <asp:ListItem Value="http://future.boe.nyc.ny.us">http://future.boe.nyc.ny.us (behind BoE firewall)</asp:ListItem>
+            <asp:ListItem Value="http://city.boe.nyc.ny.us">http://city.boe.nyc.ny.us (behind BoE firewall)</asp:ListItem>
+            <asp:ListItem Value="http://state.boe.nyc.ny.us">http://state.boe.nyc.ny.us (behind BoE firewall)</asp:ListItem>
+            <asp:ListItem Value="http://congress.boe.nyc.ny.us">http://congress.boe.nyc.ny.us (behind BoE firewall)</asp:ListItem>
+            <asp:ListItem Value="http://lastdecade.boe.nyc.ny.us">http://lastdecade.boe.nyc.ny.us (behind BoE firewall)</asp:ListItem>
         </asp:RadioButtonList>
         Referer<br />
         <asp:TextBox ID="txtReferer" runat="server"></asp:TextBox>
@@ -42,7 +45,7 @@
         <br />
         <br />
         <br />
-        <asp:Panel ID="pnlResults" runat="server">
+        <asp:Panel ID="pnlResults" runat="server" CssClass="results">
         </asp:Panel>
     
     </div>
